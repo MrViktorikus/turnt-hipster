@@ -13,10 +13,17 @@ and open the template in the editor.
         <?php
         $nonting = "kalopps";
         $frankfurt = "Frank";
-        $peeer = "beeer" . "<br>";
+        $peeer = "beeer";
         $rest = substr("majsen", 1, -2);
-        echo $peeer . $frankfurt . $nonting . "<br>";
-        echo $rest;
+        echo $peeer . "<br>" . $frankfurt . "<br>" . $nonting . "<br>";
+        echo $rest . "<br>";
+
+
+        if (substr($peeer, 1, -1) == "eee") {
+            echo "Korrekt!";
+        } else {
+            echo "Fel-fel-fel-fel-fem";
+        }
         ?>
     </body>
 </html>
