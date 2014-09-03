@@ -20,10 +20,22 @@ and open the template in the editor.
 
 
         if (substr($peeer, 1, -1) == "eee") {
-            echo "Korrekt!";
+            echo "Korrekt!" . "<br>" . "<br>";
         } else {
-            echo "Fel-fel-fel-fel-fem";
+            echo "Fel-fel-fel-fel-fem" . "<br>" . "<br>";
         }
+        
+        $Strang= "Kartoffel";
+        for($i = strlen($Strang); $i >= -1; $i--){
+            
+        echo $Strang[$i];
+        }
+        
+//        $i = "~Goodniight~";
+//        while($i >= 0){
+//            echo [$i];
+//            $i--;
+//        }
         ?>
     </body>
 </html>
